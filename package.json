@@ -2,7 +2,7 @@
   "scripts": {
     "develop": "nodemon",
     "build": "rimraf ./build && tsc",
-    "start": "npm run build && node build/index.js",
+    "start": "node build/index.js",
     "lint": "eslint . --ext .ts",
     "format": "prettier --config .prettierrc src/**/*.ts --write",
     "deploy": "flyctl deploy"
