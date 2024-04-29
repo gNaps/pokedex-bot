@@ -12,7 +12,7 @@ export const gqlRequest = async (query: string, key: string) => {
   } else {
     const config: AxiosRequestConfig = {
       method: "post",
-      url: `https://graphqlpokemon.favware.tech/v7`,
+      url: `https://graphqlpokemon.favware.tech/v8`,
       headers: {
         "Content-Type": "application/json",
       },
